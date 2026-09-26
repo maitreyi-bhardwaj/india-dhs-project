@@ -1,0 +1,4 @@
+# DHS data files are large and licensed - never commit them
+data/
+*.DTA
+*.dta
