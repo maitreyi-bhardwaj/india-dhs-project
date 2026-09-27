@@ -1,0 +1,8 @@
+variable,label,n_total,missing_stata,missing_after_cleaning,pct_missing_after_cleaning
+v024,state,724115,0,0,0.0
+v025,type of place of residence,724115,0,0,0.0
+v106,highest educational level,724115,0,0,0.0
+v133,education in single years,724115,0,0,0.0
+v714,respondent currently working,724115,615330,615330,84.98
+v190,wealth index combined,724115,0,0,0.0
+v005,women's individual sample weight (6 decimals),724115,0,0,0.0

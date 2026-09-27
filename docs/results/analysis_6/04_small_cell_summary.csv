@@ -1,0 +1,17 @@
+file,flag_column,flag,n_cells,n_cells_total
+analysis_2/04_employment_by_education_and_age.csv,reliability,ok,28,28
+analysis_3/03_employment_by_group.csv,standardized_reliability,ok,2,2
+analysis_3/04_employment_by_education_and_group.csv,crude_reliability,ok,8,8
+analysis_3/04_employment_by_education_and_group.csv,standardized_reliability,ok,8,8
+analysis_4/03_employment_by_group.csv,standardized_reliability,ok,5,5
+analysis_4/04_employment_by_education_and_group.csv,crude_reliability,ok,20,20
+analysis_4/04_employment_by_education_and_group.csv,standardized_reliability,ok,14,20
+analysis_4/04_employment_by_education_and_group.csv,standardized_reliability,caution (an age cell has n<25),3,20
+analysis_4/04_employment_by_education_and_group.csv,standardized_reliability,caution (an age cell has n 25-49),3,20
+analysis_5/02_employment_top_bottom.csv,sample_size_flag,ok,9,10
+analysis_5/02_employment_top_bottom.csv,sample_size_flag,small sample (n<500),1,10
+analysis_5/03_state_employment_crude_vs_age_standardized.csv,sample_size_flag,ok,30,36
+analysis_5/03_state_employment_crude_vs_age_standardized.csv,sample_size_flag,small sample (n<500),6,36
+analysis_5/04_state_employment_by_education.csv,reliability,ok,129,144
+analysis_5/04_state_employment_by_education.csv,reliability,suppressed (n<25),8,144
+analysis_5/04_state_employment_by_education.csv,reliability,unreliable (n 25-49),7,144

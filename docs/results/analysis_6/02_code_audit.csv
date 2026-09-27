@@ -1,0 +1,11 @@
+variable,rule,source,code,codebook_meaning,count
+v024,valid codes from codebook,found in data,,no invalid values found,0
+v025,valid codes from codebook,found in data,,no invalid values found,0
+v106,valid codes from codebook,found in data,,no invalid values found,0
+v133,valid range 0-30,special code defined in codebook,97.0,inconsistent,0
+v133,valid range 0-30,found in data,,no invalid values found,0
+v714,valid codes from codebook,found in data,,no invalid values found,0
+v190,valid codes from codebook,found in data,,no invalid values found,0
+v005,weight must be > 0,found in data,,no invalid values found,0
+v012,valid range 15-49,found in data,,no invalid values found,0
+v013,valid codes from codebook,found in data,,no invalid values found,0

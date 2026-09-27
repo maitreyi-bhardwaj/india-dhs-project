@@ -1,0 +1,9 @@
+v025,group,v106,education,n_answered_v714,crude_pct_currently_working,crude_reliability,age_standardized_pct_currently_working,smallest_age_cell_n,standardized_reliability
+1,urban,0,no education,3495,32.32,ok,28.3,106,ok
+1,urban,1,primary,2364,29.5,ok,26.05,129,ok
+1,urban,2,secondary,14331,19.1,ok,19.73,1387,ok
+1,urban,3,higher,6874,26.6,ok,26.08,381,ok
+2,rural,0,no education,21638,34.1,ok,28.64,703,ok
+2,rural,1,primary,10441,31.04,ok,28.83,814,ok
+2,rural,2,secondary,41067,21.44,ok,24.87,2264,ok
+2,rural,3,higher,8575,19.78,ok,24.8,186,ok

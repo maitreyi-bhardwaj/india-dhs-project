@@ -1,0 +1,9 @@
+check,item,all_groups,excluding_small_groups,difference,material_difference,note
+"national % working by education, excluding states with <500 v714 respondents",no education,33.77,33.78,0.01,False,6 states/UTs excluded: chandigarh; dadra & nagar haveli and daman & diu; goa; lakshadweep; andaman & nicobar islands; ladakh
+"national % working by education, excluding states with <500 v714 respondents",primary,30.67,30.67,-0.0,False,6 states/UTs excluded: chandigarh; dadra & nagar haveli and daman & diu; goa; lakshadweep; andaman & nicobar islands; ladakh
+"national % working by education, excluding states with <500 v714 respondents",secondary,20.65,20.66,0.0,False,6 states/UTs excluded: chandigarh; dadra & nagar haveli and daman & diu; goa; lakshadweep; andaman & nicobar islands; ladakh
+"national % working by education, excluding states with <500 v714 respondents",higher,23.49,23.41,-0.08,False,6 states/UTs excluded: chandigarh; dadra & nagar haveli and daman & diu; goa; lakshadweep; andaman & nicobar islands; ladakh
+state-level Spearman correlation: % higher education vs employment (Analysis 5),crude_pct_currently_working,0.14,0.262,0.122,,both |r| < 0.3 (weak)
+state-level Spearman correlation: % higher education vs employment (Analysis 5),age_standardized_pct_currently_working,0.086,0.164,0.078,,both |r| < 0.3 (weak)
+Analysis 5 classification: min age cell 10 (all_groups) vs 25 (excluding_small_groups),number of states assessed,16.0,9.0,-7.0,,differing at 10: arunachal pradesh; odisha; madhya pradesh; karnataka; telangana | differing at 25: arunachal pradesh; odisha; madhya pradesh
+Analysis 5 classification: min age cell 10 (all_groups) vs 25 (excluding_small_groups),number of states classified as differing,5.0,3.0,-2.0,,differing at 10: arunachal pradesh; odisha; madhya pradesh; karnataka; telangana | differing at 25: arunachal pradesh; odisha; madhya pradesh

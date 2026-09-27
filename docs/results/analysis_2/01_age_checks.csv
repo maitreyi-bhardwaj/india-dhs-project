@@ -1,0 +1,10 @@
+check,value
+n_total,724115
+v012_stata_missing,0
+v012_out_of_range_15_49,0
+v012_valid,724115
+v012_min,15
+v012_max,49
+v013_stata_missing,0
+age_group_matches_v013,724115
+age_group_differs_from_v013,0

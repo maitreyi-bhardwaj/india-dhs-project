@@ -1,0 +1,10 @@
+variable,label,n_total,stata_missing,invalid_or_special_codes,valid,pct_valid
+v024,state,724115,0,0,724115,100.0
+v025,type of place of residence,724115,0,0,724115,100.0
+v106,highest educational level,724115,0,0,724115,100.0
+v133,education in single years,724115,0,0,724115,100.0
+v714,respondent currently working,724115,615330,0,108785,15.02
+v190,wealth index combined,724115,0,0,724115,100.0
+v005,women's individual sample weight (6 decimals),724115,0,0,724115,100.0
+v012,respondent's current age,724115,0,0,724115,100.0
+v013,age in 5-year groups,724115,0,0,724115,100.0

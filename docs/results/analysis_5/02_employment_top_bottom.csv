@@ -1,0 +1,11 @@
+position,rank_high_to_low,v024,state,pct_currently_working,n_answered_v714,sample_size_flag
+highest,1,17,meghalaya,41.66,1965,ok
+highest,2,14,manipur,40.14,1256,ok
+highest,3,36,telangana,38.56,4159,ok
+highest,4,28,andhra pradesh,37.34,1638,ok
+highest,5,33,tamil nadu,36.79,3772,ok
+lowest,32,19,west bengal,18.49,3251,ok
+lowest,33,18,assam,17.9,5314,ok
+lowest,34,9,uttar pradesh,16.69,13839,ok
+lowest,35,10,bihar,14.33,6350,ok
+lowest,36,31,lakshadweep,9.21,173,small sample (n<500)

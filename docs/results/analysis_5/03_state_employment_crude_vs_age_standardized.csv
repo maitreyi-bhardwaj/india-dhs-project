@@ -1,0 +1,37 @@
+v024,state,n_answered_v714,sample_size_flag,crude_pct_currently_working,age_standardized_pct_currently_working,smallest_age_cell_n,rank_crude,rank_age_standardized
+17,meghalaya,1965,ok,41.66,43.16,170,1,1
+14,manipur,1256,ok,40.14,38.65,142,2,2
+36,telangana,4159,ok,38.56,36.35,501,3,3
+27,maharashtra,5078,ok,36.73,35.59,645,6,4
+28,andhra pradesh,1638,ok,37.34,34.78,199,4,5
+33,tamil nadu,3772,ok,36.79,34.23,483,5,6
+29,karnataka,4555,ok,35.14,33.8,515,7,7
+24,gujarat,5050,ok,33.22,32.97,567,9,8
+13,nagaland,1515,ok,33.72,32.88,179,8,9
+22,chhattisgarh,4244,ok,31.26,31.63,415,12,10
+34,puducherry,546,ok,32.97,30.44,55,10,11
+30,goa,303,small sample (n<500),30.75,30.09,34,13,12
+25,dadra & nagar haveli and daman & diu,425,small sample (n<500),29.66,29.98,43,14,13
+11,sikkim,506,ok,31.36,29.48,53,11,14
+12,arunachal pradesh,2960,ok,29.47,28.91,340,15,15
+23,madhya pradesh,6965,ok,27.78,28.19,793,16,16
+37,ladakh,350,small sample (n<500),27.25,27.64,26,17,17
+15,mizoram,1161,ok,25.13,24.01,134,18,18
+35,andaman & nicobar islands,389,small sample (n<500),25.06,23.49,39,19,19
+21,odisha,4379,ok,23.2,22.78,499,21,20
+8,rajasthan,6549,ok,21.97,22.77,610,25,21
+4,chandigarh,129,small sample (n<500),20.46,22.68,9,30,22
+7,nct of delhi,1638,ok,22.46,22.12,170,23,23
+2,himachal pradesh,1619,ok,23.91,22.09,202,20,24
+20,jharkhand,4001,ok,21.76,22.09,386,27,24
+5,uttarakhand,1881,ok,21.99,21.98,214,24,26
+1,jammu & kashmir,3388,ok,21.94,21.78,267,26,27
+3,punjab,3371,ok,21.69,21.24,421,29,28
+16,tripura,1137,ok,21.73,20.47,118,28,29
+32,kerala,1659,ok,22.8,20.18,190,22,30
+6,haryana,3270,ok,18.94,18.77,310,31,31
+19,west bengal,3251,ok,18.49,18.22,348,32,32
+18,assam,5314,ok,17.9,17.66,606,33,33
+9,uttar pradesh,13839,ok,16.69,17.26,1303,34,34
+10,bihar,6350,ok,14.33,15.62,585,35,35
+31,lakshadweep,173,small sample (n<500),9.21,8.82,17,36,36

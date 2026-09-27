@@ -1,0 +1,5 @@
+states_included,n_states,employment_measure,spearman_correlation_with_pct_higher_education
+all 36 states/UTs,36,crude_pct_currently_working,0.14
+all 36 states/UTs,36,age_standardized_pct_currently_working,0.086
+excluding small samples (n<500),30,crude_pct_currently_working,0.262
+excluding small samples (n<500),30,age_standardized_pct_currently_working,0.164

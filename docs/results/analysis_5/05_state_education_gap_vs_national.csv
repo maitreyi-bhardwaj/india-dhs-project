@@ -1,0 +1,38 @@
+v024,state,n_no_education,n_secondary,crude_pct_no_education,crude_pct_secondary,crude_gap,age_std_pct_no_education,age_std_pct_secondary,age_std_gap,smallest_age_cell_n,national_age_std_gap,national_crude_gap,pattern,age_std_gap_minus_national
+0,INDIA (national),25133,55398,33.77,20.65,-13.12,28.54,22.9,-5.64,809,-5.64,-13.12,reference,0.0
+14,manipur,120,787,38.62,36.06,-2.56,30.58,37.64,7.06,2,-5.64,-13.12,not assessed (an age cell has n<10),12.7
+12,arunachal pradesh,714,1579,32.03,26.69,-5.34,24.52,30.08,5.56,27,-5.64,-13.12,differs: secondary relatively MORE likely to work than nationally,11.2
+5,uttarakhand,269,1001,27.89,18.34,-9.55,17.35,20.22,2.86,3,-5.64,-13.12,not assessed (an age cell has n<10),8.5
+16,tripura,138,715,31.0,19.88,-11.12,19.59,20.59,1.0,2,-5.64,-13.12,not assessed (an age cell has n<10),6.64
+6,haryana,527,1716,23.58,16.04,-7.54,18.07,17.52,-0.55,17,-5.64,-13.12,similar to national,5.09
+15,mizoram,82,764,27.4,23.26,-4.14,24.64,22.71,-1.92,5,-5.64,-13.12,not assessed (an age cell has n<10),3.72
+10,bihar,2506,2728,19.65,10.09,-9.56,16.48,13.79,-2.69,103,-5.64,-13.12,similar to national,2.95
+20,jharkhand,1280,1912,27.25,18.6,-8.65,23.89,21.04,-2.85,42,-5.64,-13.12,similar to national,2.79
+9,uttar pradesh,3991,6103,20.82,13.56,-7.26,18.28,15.16,-3.13,213,-5.64,-13.12,similar to national,2.51
+1,jammu & kashmir,758,1855,23.27,21.71,-1.56,27.21,22.62,-4.58,18,-5.64,-13.12,similar to national,1.06
+22,chhattisgarh,1188,2092,40.9,26.52,-14.38,37.19,30.78,-6.4,37,-5.64,-13.12,similar to national,-0.76
+13,nagaland,129,974,41.03,28.45,-12.58,36.07,29.25,-6.81,3,-5.64,-13.12,not assessed (an age cell has n<10),-1.17
+18,assam,1020,3136,25.2,14.91,-10.29,23.62,16.42,-7.2,22,-5.64,-13.12,similar to national,-1.56
+8,rajasthan,2171,2649,31.06,16.22,-14.84,27.71,20.06,-7.65,79,-5.64,-13.12,similar to national,-2.01
+17,meghalaya,310,1126,52.75,34.4,-18.35,48.64,39.9,-8.75,11,-5.64,-13.12,similar to national,-3.11
+27,maharashtra,668,3021,54.47,33.17,-21.3,47.25,34.18,-13.07,11,-5.64,-13.12,similar to national,-7.43
+19,west bengal,672,1721,29.43,12.93,-16.5,28.03,14.51,-13.52,8,-5.64,-13.12,not assessed (an age cell has n<10),-7.88
+24,gujarat,1153,2677,44.14,28.33,-15.81,42.85,28.53,-14.32,40,-5.64,-13.12,similar to national,-8.68
+21,odisha,1059,2284,36.97,17.06,-19.91,34.41,17.77,-16.64,26,-5.64,-13.12,differs: secondary relatively LESS likely to work than nationally,-11.0
+23,madhya pradesh,1913,3357,42.45,19.95,-22.5,39.32,22.62,-16.69,43,-5.64,-13.12,differs: secondary relatively LESS likely to work than nationally,-11.05
+3,punjab,534,1849,32.77,16.66,-16.11,34.19,17.34,-16.85,8,-5.64,-13.12,not assessed (an age cell has n<10),-11.21
+29,karnataka,965,2466,54.05,27.95,-26.1,46.11,28.97,-17.15,16,-5.64,-13.12,differs: secondary relatively LESS likely to work than nationally,-11.51
+7,nct of delhi,216,828,26.79,16.1,-10.69,35.28,16.78,-18.5,5,-5.64,-13.12,not assessed (an age cell has n<10),-12.86
+25,dadra & nagar haveli and daman & diu,67,253,42.06,23.84,-18.22,43.32,22.07,-21.24,1,-5.64,-13.12,not assessed (an age cell has n<10),-15.6
+33,tamil nadu,312,1985,60.14,33.03,-27.11,54.22,32.32,-21.9,1,-5.64,-13.12,not assessed (an age cell has n<10),-16.26
+28,andhra pradesh,537,710,55.4,24.92,-30.48,53.45,26.09,-27.36,2,-5.64,-13.12,not assessed (an age cell has n<10),-21.72
+36,telangana,1463,1779,61.94,26.86,-35.08,57.77,28.38,-29.4,13,-5.64,-13.12,differs: secondary relatively LESS likely to work than nationally,-23.76
+2,himachal pradesh,155,912,25.5,23.03,-2.47,,21.44,,0,-5.64,-13.12,not assessed (an age cell has n<10),
+4,chandigarh,10,75,,13.44,,,17.67,,0,-5.64,-13.12,not assessed (an age cell has n<10),
+11,sikkim,55,269,20.59,18.79,-1.8,,20.19,,0,-5.64,-13.12,not assessed (an age cell has n<10),
+30,goa,9,175,,24.51,,,23.45,,0,-5.64,-13.12,not assessed (an age cell has n<10),
+31,lakshadweep,2,130,,7.08,,,6.71,,0,-5.64,-13.12,not assessed (an age cell has n<10),
+32,kerala,13,1037,,19.27,,,15.65,,0,-5.64,-13.12,not assessed (an age cell has n<10),
+34,puducherry,36,273,66.7,19.92,-46.78,,20.33,,0,-5.64,-13.12,not assessed (an age cell has n<10),
+35,andaman & nicobar islands,31,268,39.07,19.9,-19.17,,19.52,,0,-5.64,-13.12,not assessed (an age cell has n<10),
+37,ladakh,60,192,32.73,25.52,-7.21,,26.2,,0,-5.64,-13.12,not assessed (an age cell has n<10),

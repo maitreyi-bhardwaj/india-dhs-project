@@ -1,0 +1,29 @@
+age_group,v106,education,n_answered_v714,pct_currently_working,reliability
+15-19,0,no education,809,17.9,ok
+15-19,1,primary,943,20.63,ok
+15-19,2,secondary,15307,10.43,ok
+15-19,3,higher,1178,8.21,ok
+20-24,0,no education,1637,19.5,ok
+20-24,1,primary,1264,17.43,ok
+20-24,2,secondary,9768,16.45,ok
+20-24,3,higher,5211,16.01,ok
+25-29,0,no education,2825,23.24,ok
+25-29,1,primary,2148,26.83,ok
+25-29,2,secondary,8877,21.12,ok
+25-29,3,higher,3964,24.86,ok
+30-34,0,no education,3700,33.84,ok
+30-34,1,primary,2228,32.7,ok
+30-34,2,secondary,7191,28.35,ok
+30-34,3,higher,2258,30.25,ok
+35-39,0,no education,4804,37.73,ok
+35-39,1,primary,2328,38.18,ok
+35-39,2,secondary,6229,31.58,ok
+35-39,3,higher,1345,31.57,ok
+40-44,0,no education,5008,39.46,ok
+40-44,1,primary,1875,35.68,ok
+40-44,2,secondary,4375,30.88,ok
+40-44,3,higher,841,37.76,ok
+45-49,0,no education,6350,36.55,ok
+45-49,1,primary,2019,32.14,ok
+45-49,2,secondary,3651,28.22,ok
+45-49,3,higher,652,38.06,ok

@@ -1,0 +1,21 @@
+v190,group,v106,education,n_answered_v714,crude_pct_currently_working,crude_reliability,age_standardized_pct_currently_working,smallest_age_cell_n,standardized_reliability
+1,poorest,0,no education,9619,32.63,ok,28.94,446,ok
+1,poorest,1,primary,3586,30.38,ok,30.11,294,ok
+1,poorest,2,secondary,8437,20.98,ok,27.37,194,ok
+1,poorest,3,higher,513,20.07,ok,28.77,1,caution (an age cell has n<25)
+2,poorer,0,no education,6884,35.13,ok,29.14,200,ok
+2,poorer,1,primary,3565,30.82,ok,28.6,261,ok
+2,poorer,2,secondary,12434,22.13,ok,27.34,511,ok
+2,poorer,3,higher,1439,19.47,ok,31.09,23,caution (an age cell has n<25)
+3,middle,0,no education,4741,37.44,ok,30.14,97,ok
+3,middle,1,primary,2771,33.5,ok,29.69,124,ok
+3,middle,2,secondary,12875,23.82,ok,27.07,748,ok
+3,middle,3,higher,2552,20.03,ok,26.36,40,caution (an age cell has n 25-49)
+4,richer,0,no education,2753,34.73,ok,27.99,45,caution (an age cell has n 25-49)
+4,richer,1,primary,1930,31.83,ok,27.18,61,ok
+4,richer,2,secondary,12255,20.39,ok,21.46,1034,ok
+4,richer,3,higher,4149,22.07,ok,25.04,132,ok
+5,richest,0,no education,1136,18.87,ok,13.77,21,caution (an age cell has n<25)
+5,richest,1,primary,953,20.87,ok,19.27,29,caution (an age cell has n 25-49)
+5,richest,2,secondary,9397,15.6,ok,15.46,1052,ok
+5,richest,3,higher,6796,25.95,ok,24.84,327,ok

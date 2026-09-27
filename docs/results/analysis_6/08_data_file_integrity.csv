@@ -1,0 +1,6 @@
+check,observed,expected,passed
+size_bytes_now,5196403097,5196403097,True
+modified_now,2026-09-25 20:23:22,2026-09-25 20:23:22,True
+sha256_before_scripts_1_5 vs now,53acf9bc37e4c207e026379f156758bfc47020cbdbf0aa26667e9e1a617ab3fc,53acf9bc37e4c207e026379f156758bfc47020cbdbf0aa26667e9e1a617ab3fc,True
+fingerprint_before_recorded_at,2026-09-26 09:15:08,,True
+scripts_writing_to_data_file,none found,none,True

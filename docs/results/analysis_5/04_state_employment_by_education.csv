@@ -1,0 +1,145 @@
+v024,state,v106,education,n_answered_v714,pct_currently_working,reliability
+1,jammu & kashmir,0,no education,758,23.27,ok
+1,jammu & kashmir,1,primary,151,15.2,ok
+1,jammu & kashmir,2,secondary,1855,21.71,ok
+1,jammu & kashmir,3,higher,624,22.73,ok
+2,himachal pradesh,0,no education,155,25.5,ok
+2,himachal pradesh,1,primary,174,28.15,ok
+2,himachal pradesh,2,secondary,912,23.03,ok
+2,himachal pradesh,3,higher,378,23.75,ok
+3,punjab,0,no education,534,32.77,ok
+3,punjab,1,primary,340,21.28,ok
+3,punjab,2,secondary,1849,16.66,ok
+3,punjab,3,higher,648,27.28,ok
+4,chandigarh,0,no education,10,,suppressed (n<25)
+4,chandigarh,1,primary,17,,suppressed (n<25)
+4,chandigarh,2,secondary,75,13.44,ok
+4,chandigarh,3,higher,27,37.1,unreliable (n 25-49)
+5,uttarakhand,0,no education,269,27.89,ok
+5,uttarakhand,1,primary,181,25.04,ok
+5,uttarakhand,2,secondary,1001,18.34,ok
+5,uttarakhand,3,higher,430,24.48,ok
+6,haryana,0,no education,527,23.58,ok
+6,haryana,1,primary,361,25.1,ok
+6,haryana,2,secondary,1716,16.04,ok
+6,haryana,3,higher,666,19.37,ok
+7,nct of delhi,0,no education,216,26.79,ok
+7,nct of delhi,1,primary,150,27.1,ok
+7,nct of delhi,2,secondary,828,16.1,ok
+7,nct of delhi,3,higher,444,30.29,ok
+8,rajasthan,0,no education,2171,31.06,ok
+8,rajasthan,1,primary,888,23.39,ok
+8,rajasthan,2,secondary,2649,16.22,ok
+8,rajasthan,3,higher,841,16.68,ok
+9,uttar pradesh,0,no education,3991,20.82,ok
+9,uttar pradesh,1,primary,1563,17.96,ok
+9,uttar pradesh,2,secondary,6103,13.56,ok
+9,uttar pradesh,3,higher,2182,17.08,ok
+10,bihar,0,no education,2506,19.65,ok
+10,bihar,1,primary,663,13.33,ok
+10,bihar,2,secondary,2728,10.09,ok
+10,bihar,3,higher,453,12.85,ok
+11,sikkim,0,no education,55,20.59,ok
+11,sikkim,1,primary,93,46.62,ok
+11,sikkim,2,secondary,269,18.79,ok
+11,sikkim,3,higher,89,47.72,ok
+12,arunachal pradesh,0,no education,714,32.03,ok
+12,arunachal pradesh,1,primary,310,37.58,ok
+12,arunachal pradesh,2,secondary,1579,26.69,ok
+12,arunachal pradesh,3,higher,357,29.31,ok
+13,nagaland,0,no education,129,41.03,ok
+13,nagaland,1,primary,218,43.14,ok
+13,nagaland,2,secondary,974,28.45,ok
+13,nagaland,3,higher,194,43.92,ok
+14,manipur,0,no education,120,38.62,ok
+14,manipur,1,primary,131,54.41,ok
+14,manipur,2,secondary,787,36.06,ok
+14,manipur,3,higher,218,47.79,ok
+15,mizoram,0,no education,82,27.4,ok
+15,mizoram,1,primary,164,24.98,ok
+15,mizoram,2,secondary,764,23.26,ok
+15,mizoram,3,higher,151,31.32,ok
+16,tripura,0,no education,138,31.0,ok
+16,tripura,1,primary,212,20.3,ok
+16,tripura,2,secondary,715,19.88,ok
+16,tripura,3,higher,72,29.0,ok
+17,meghalaya,0,no education,310,52.75,ok
+17,meghalaya,1,primary,386,49.09,ok
+17,meghalaya,2,secondary,1126,34.4,ok
+17,meghalaya,3,higher,143,55.44,ok
+18,assam,0,no education,1020,25.2,ok
+18,assam,1,primary,708,19.69,ok
+18,assam,2,secondary,3136,14.91,ok
+18,assam,3,higher,450,19.26,ok
+19,west bengal,0,no education,672,29.43,ok
+19,west bengal,1,primary,546,23.1,ok
+19,west bengal,2,secondary,1721,12.93,ok
+19,west bengal,3,higher,312,20.19,ok
+20,jharkhand,0,no education,1280,27.25,ok
+20,jharkhand,1,primary,394,24.19,ok
+20,jharkhand,2,secondary,1912,18.6,ok
+20,jharkhand,3,higher,415,18.65,ok
+21,odisha,0,no education,1059,36.97,ok
+21,odisha,1,primary,660,24.39,ok
+21,odisha,2,secondary,2284,17.06,ok
+21,odisha,3,higher,376,24.04,ok
+22,chhattisgarh,0,no education,1188,40.9,ok
+22,chhattisgarh,1,primary,548,41.2,ok
+22,chhattisgarh,2,secondary,2092,26.52,ok
+22,chhattisgarh,3,higher,416,21.97,ok
+23,madhya pradesh,0,no education,1913,42.45,ok
+23,madhya pradesh,1,primary,1038,32.29,ok
+23,madhya pradesh,2,secondary,3357,19.95,ok
+23,madhya pradesh,3,higher,657,23.01,ok
+24,gujarat,0,no education,1153,44.14,ok
+24,gujarat,1,primary,660,40.8,ok
+24,gujarat,2,secondary,2677,28.33,ok
+24,gujarat,3,higher,560,29.08,ok
+25,dadra & nagar haveli and daman & diu,0,no education,67,42.06,ok
+25,dadra & nagar haveli and daman & diu,1,primary,44,33.64,unreliable (n 25-49)
+25,dadra & nagar haveli and daman & diu,2,secondary,253,23.84,ok
+25,dadra & nagar haveli and daman & diu,3,higher,61,33.33,ok
+27,maharashtra,0,no education,668,54.47,ok
+27,maharashtra,1,primary,578,49.4,ok
+27,maharashtra,2,secondary,3021,33.17,ok
+27,maharashtra,3,higher,811,30.04,ok
+28,andhra pradesh,0,no education,537,55.4,ok
+28,andhra pradesh,1,primary,208,46.63,ok
+28,andhra pradesh,2,secondary,710,24.92,ok
+28,andhra pradesh,3,higher,183,24.32,ok
+29,karnataka,0,no education,965,54.05,ok
+29,karnataka,1,primary,488,46.09,ok
+29,karnataka,2,secondary,2466,27.95,ok
+29,karnataka,3,higher,636,28.64,ok
+30,goa,0,no education,9,,suppressed (n<25)
+30,goa,1,primary,18,,suppressed (n<25)
+30,goa,2,secondary,175,24.51,ok
+30,goa,3,higher,101,42.75,ok
+31,lakshadweep,0,no education,2,,suppressed (n<25)
+31,lakshadweep,1,primary,12,,suppressed (n<25)
+31,lakshadweep,2,secondary,130,7.08,ok
+31,lakshadweep,3,higher,29,21.32,unreliable (n 25-49)
+32,kerala,0,no education,13,,suppressed (n<25)
+32,kerala,1,primary,51,34.76,ok
+32,kerala,2,secondary,1037,19.27,ok
+32,kerala,3,higher,558,28.1,ok
+33,tamil nadu,0,no education,312,60.14,ok
+33,tamil nadu,1,primary,456,60.24,ok
+33,tamil nadu,2,secondary,1985,33.03,ok
+33,tamil nadu,3,higher,1019,27.07,ok
+34,puducherry,0,no education,36,66.7,unreliable (n 25-49)
+34,puducherry,1,primary,38,49.64,unreliable (n 25-49)
+34,puducherry,2,secondary,273,19.92,ok
+34,puducherry,3,higher,199,38.47,ok
+35,andaman & nicobar islands,0,no education,31,39.07,unreliable (n 25-49)
+35,andaman & nicobar islands,1,primary,35,20.72,unreliable (n 25-49)
+35,andaman & nicobar islands,2,secondary,268,19.9,ok
+35,andaman & nicobar islands,3,higher,55,43.38,ok
+36,telangana,0,no education,1463,61.94,ok
+36,telangana,1,primary,308,48.8,ok
+36,telangana,2,secondary,1779,26.86,ok
+36,telangana,3,higher,609,21.59,ok
+37,ladakh,0,no education,60,32.73,ok
+37,ladakh,1,primary,13,,suppressed (n<25)
+37,ladakh,2,secondary,192,25.52,ok
+37,ladakh,3,higher,85,23.4,ok

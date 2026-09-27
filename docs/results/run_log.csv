@@ -1,0 +1,7 @@
+script,seconds,exit_code,stderr_lines
+education_employment_summary.py,11.5,0,0
+education_employment_age.py,11.4,0,0
+education_employment_urban_rural.py,11.4,0,0
+education_employment_wealth.py,11.5,0,0
+state_comparison.py,11.6,0,0
+data_quality_checks.py,14.4,0,0
