@@ -5,3 +5,8 @@ data/
 
 # Python bytecode cache, created automatically when scripts import each other
 __pycache__/
+
+# Local Python environment and secrets
+.venv/
+.env
+.pytest_cache/

@@ -1,0 +1,123 @@
+{
+  "about": "Curated outreach knowledge base. Every 'facts' entry paraphrases or briefly quotes the linked page, as fetched on the accessed date. 'related_indicators' and 'channels' are a PROJECT MAPPING (our inference about which dataset indicators an organization's stated work relates to), not claims made by the organization. Sites that could not be reached on 2026-09-27 (e.g. pmjay.gov.in, careindia.org, educategirls.ngo, aajeevika.gov.in) are not used as sources.",
+  "accessed": "2026-09-27",
+  "organizations": [
+    {
+      "id": "jeevika-brlps",
+      "name": "Bihar Rural Livelihoods Promotion Society (BRLPS, 'JEEViKA')",
+      "type": "state government program",
+      "geography": {"scope": "state", "states": ["bihar"]},
+      "facts": [
+        {"text": "Describes itself as \"An Initiative of Government of Bihar for Poverty Alleviation\" and as the State Rural Livelihoods Mission, Bihar.", "source_url": "https://brlps.in/about-us"},
+        {"text": "Its website is branded under the Rural Development Department, Government of Bihar, and references a women's employment scheme ('Mahila Rojgar Yojana') and NRLM e-governance.", "source_url": "https://brlps.in/"}
+      ],
+      "source_type": "official website",
+      "channels": ["self-help groups", "livelihood programs"],
+      "related_indicators": ["not_working", "no_bank_account"],
+      "unverified_note": "The pages fetched did not state the number of self-help groups, households or districts covered."
+    },
+    {
+      "id": "nhm-asha",
+      "name": "Accredited Social Health Activists (ASHA), National Health Mission",
+      "type": "national government program",
+      "geography": {"scope": "national", "states": []},
+      "facts": [
+        {"text": "A component of the National Rural Health Mission is to provide every village with a trained female community health activist (ASHA), selected from the village itself.", "source_url": "https://nhm.gov.in/index1.php?lang=1&level=1&sublinkid=150&lid=226"},
+        {"text": "ASHAs act as an interface between the community and the public health system: creating health awareness, first-contact care and referrals, counselling women on birth preparedness and safe delivery, and working with ANMs and Anganwadi workers.", "source_url": "https://nhm.gov.in/index1.php?lang=1&level=1&sublinkid=150&lid=226"}
+      ],
+      "source_type": "official website",
+      "channels": ["community health workers", "door-to-door"],
+      "related_indicators": ["no_frontline_worker_contact", "any_anemia"]
+    },
+    {
+      "id": "mwcd-anganwadi",
+      "name": "Mission Saksham Anganwadi & POSHAN 2.0, Ministry of Women and Child Development",
+      "type": "national government program",
+      "geography": {"scope": "national", "states": []},
+      "facts": [
+        {"text": "The Ministry of Women and Child Development's website lists 'Mission Saksham Anganwadi & POSHAN 2.0' as a key scheme and identifies 'Pregnant/lactating women and children (0-6 years)' as a user group.", "source_url": "https://wcd.gov.in/"}
+      ],
+      "source_type": "official website",
+      "channels": ["Anganwadi centres", "community health workers"],
+      "related_indicators": ["no_frontline_worker_contact", "any_anemia"]
+    },
+    {
+      "id": "pmjay",
+      "name": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB PM-JAY)",
+      "type": "national government program",
+      "geography": {"scope": "national", "states": []},
+      "facts": [
+        {"text": "A national public health insurance scheme of the Government of India, administered by the National Health Authority, giving a cover of Rs 5 lakh per family per year for treatment in empanelled public and private hospitals.", "source_url": "https://en.wikipedia.org/wiki/Ayushman_Bharat_Pradhan_Mantri_Jan_Arogya_Yojana"},
+        {"text": "Targets roughly the economically bottom 50% of the population; later expanded to all citizens aged 70 and above.", "source_url": "https://en.wikipedia.org/wiki/Ayushman_Bharat_Pradhan_Mantri_Jan_Arogya_Yojana"}
+      ],
+      "source_type": "secondary source (Wikipedia); the official site pmjay.gov.in could not be reached",
+      "channels": ["health insurance enrolment"],
+      "related_indicators": ["no_health_insurance"]
+    },
+    {
+      "id": "pmjdy",
+      "name": "Pradhan Mantri Jan-Dhan Yojana (PMJDY)",
+      "type": "national government program",
+      "geography": {"scope": "national", "states": []},
+      "facts": [
+        {"text": "Run by the Department of Financial Services, Ministry of Finance, as 'a National Mission on Financial Inclusion' aiming for at least one basic bank account for every household.", "source_url": "https://pmjdy.gov.in/about"},
+        {"text": "Provides a basic savings bank account, access to need-based credit, remittances, insurance and pension, a RuPay debit card, and channels government benefits through Direct Benefit Transfer.", "source_url": "https://pmjdy.gov.in/about"}
+      ],
+      "source_type": "official website",
+      "channels": ["bank accounts", "direct benefit transfer"],
+      "related_indicators": ["no_bank_account"]
+    },
+    {
+      "id": "gram-vaani",
+      "name": "Gram Vaani (Mobile Vaani)",
+      "type": "social enterprise",
+      "geography": {"scope": "national", "states": [], "detail": "States '110+ districts in India'; regional offices in New Delhi, Ranchi and Chennai. The homepage does not name Bihar."},
+      "facts": [
+        {"text": "Builds participatory, voice-based media platforms (IVR and community radio) so that communities can share information and opinions.", "source_url": "https://www.gramvaani.org/"},
+        {"text": "Says it serves hard-to-reach and rural communities, including women, agricultural workers, industrial workers and youth, in '110+ Districts in India'.", "source_url": "https://www.gramvaani.org/"}
+      ],
+      "source_type": "official website",
+      "channels": ["mobile phone (voice / IVR)", "community radio"],
+      "related_indicators": ["no_media_exposure", "cannot_read"]
+    },
+    {
+      "id": "pratham",
+      "name": "Pratham Education Foundation",
+      "type": "NGO",
+      "geography": {"scope": "national", "states": [], "detail": "States that it works in '24 states & union territories'; the homepage does not list them."},
+      "facts": [
+        {"text": "Describes itself as one of the largest NGOs in India (since 1995), focused on education.", "source_url": "https://www.pratham.org/"},
+        {"text": "Runs the 'Pratham-Jameel Second Chance Program' for girls and women returning to education, and reports reaching 208 thousand girls and women through mothers' groups and second-chance initiatives.", "source_url": "https://www.pratham.org/"}
+      ],
+      "source_type": "official website",
+      "channels": ["second-chance education", "community groups"],
+      "related_indicators": ["no_education", "cannot_read"]
+    },
+    {
+      "id": "pradan",
+      "name": "PRADAN (Professional Assistance for Development Action)",
+      "type": "NGO",
+      "geography": {"scope": "multi-state", "states": ["jharkhand", "odisha", "chhattisgarh", "madhya pradesh"], "detail": "States work with 3.4 million households in 145 districts and 9 states; the homepage names locations in Jharkhand, Odisha, Chhattisgarh and Madhya Pradesh. Bihar is not mentioned on the page."},
+      "facts": [
+        {"text": "Works with 'the most marginalized people, especially rural women', mobilizing women into self-help groups and linking them to banks, markets and government services.", "source_url": "https://www.pradan.net/"},
+        {"text": "States that it works with 3.4 million households across 145 districts in 9 states of India.", "source_url": "https://www.pradan.net/"}
+      ],
+      "source_type": "official website",
+      "channels": ["self-help groups", "livelihood programs"],
+      "related_indicators": ["not_working", "no_bank_account"]
+    },
+    {
+      "id": "prasar-bharati",
+      "name": "Prasar Bharati (Doordarshan and All India Radio / Akashvani)",
+      "type": "public broadcaster",
+      "geography": {"scope": "national", "states": [], "detail": "Includes regional Doordarshan channels across states and languages."},
+      "facts": [
+        {"text": "India's public service broadcaster, an autonomous body under the Ministry of Information and Broadcasting, comprising Doordarshan (television, including regional channels) and All India Radio / Akashvani.", "source_url": "https://prasarbharati.gov.in/"},
+        {"text": "Distributes content through traditional broadcast, satellite (DD Free Dish) and digital platforms.", "source_url": "https://prasarbharati.gov.in/"}
+      ],
+      "source_type": "official website",
+      "channels": ["television", "radio"],
+      "related_indicators": ["no_media_exposure"]
+    }
+  ]
+}

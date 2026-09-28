@@ -55,7 +55,9 @@ Labels are taken from the file's own metadata (`docs/dhs_codebook.csv`).
     Most of these are state-level figures, for example Puducherry's employment
     rate: 22.2% unweighted vs 33.0% weighted.
 - The same `v005` weight is used for state-level estimates. The
-  state-specific weight (`sweight`) has not been compared.
+  state-specific weight (`sweight`) was later checked (2026-09-27, data
+  pipeline validation): within every state, `sweight` / `v005` is constant up to
+  rounding, so state percentages are the same with either weight.
 
 ## 5. Cleaning decisions
 
@@ -158,11 +160,13 @@ these patterns exist.
 ## 8. Limitations
 
 - **Employment is known for only 15% of women.** `v714` is missing for 85%.
+  - Verified later (2026-09-27): `v714` is present for exactly the 108,785
+    women with `ssmod = 1` ("household selected for the state module") and
+    missing for all others, so the missingness is by survey design.
   - The share answering is about 15% in every age group, residence type and
-    wealth quintile (Analysis 6, table 03). That is consistent with a
-    planned subsample, but this project hasn't confirmed how it was selected.
-  - `v005` is assumed to be the right weight for this subsample. That needs
-    checking against NFHS-5 documentation or the DHS Indicators code.
+    wealth quintile (Analysis 6, table 03).
+  - `v005` is assumed to be the right weight for this subsample. That still
+    needs checking against NFHS-5 documentation or the DHS Indicators code.
 - **No confidence intervals.** The survey design (`v021` primary sampling unit,
   `v022` strata) wasn't used, so we can't say which differences are
   statistically meaningful. Differences of a few points, especially for
@@ -204,9 +208,10 @@ analysed yet.
 
 1. **Add confidence intervals** using `v021` (primary sampling unit) and `v022`
    (sample strata), to see which differences are larger than sampling noise.
-2. **Confirm the employment subsample:** check `ssmod` ("household selected for
-   the state module") against `v714` missingness, and compare `v005` with
-   `sweight` (state-level sample weight) for state estimates.
+2. **Check the subsample weight:** `ssmod` now confirms which women are in the
+   employment subsample, and `sweight` is proportional to `v005` within states.
+   Still open: whether NFHS-5 recommends a different weight for state-module
+   questions.
 3. **Look at other employment measures:** `v731` (worked in last 12 months),
    `v717` (occupation grouped), `v741` (type of earnings), `v732` (all
    year/seasonal).

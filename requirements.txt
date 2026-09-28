@@ -1,0 +1,11 @@
+# Python 3.10+ (developed on 3.14). Install into a virtual environment:
+#   python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+pandas==3.0.6          # reading the Stata file, data cleaning
+numpy==2.5.3           # vectors and arithmetic
+scikit-learn==1.9.1    # TF-IDF + SVD embeddings (LSA)
+scipy==1.18.1          # sparse TF-IDF matrices in the vector store
+joblib==1.6.0          # saving the fitted embedding model
+anthropic==1.8.0       # Claude API (optional at runtime: offline mode needs no key)
+python-dotenv==1.2.3   # reads .env for configuration
+streamlit==1.64.0      # web interface
+pytest==9.1.1          # tests

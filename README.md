@@ -11,8 +11,74 @@ is not included in this repository (see `.gitignore`); request it from
 - **`docs/final_summary.md`** — what the six analyses found, and what they can't tell us.
 - **`docs/analysis_map.md`** — how the project fits together, from raw data to interpretation.
 - `analysis.py` — the first inspection script (reads 100 rows and the metadata).
+- **`src/` + `app.py`**: an agentic RAG research and outreach assistant built on the data (below).
+- **`docs/how_it_works.md`**: a ground-up explanation of the assistant's architecture.
 
-## Quick start
+## Research & outreach assistant
+
+Ask questions in plain language ("What does v012 mean?", "What percentage of
+rural women in Bihar own a mobile phone?", "Identify an underserved population
+and recommend outreach organizations") and get an answer with its evidence:
+codebook definitions, the exact SQL behind every number, sources for every
+external claim, and every statement labelled as a fact or an inference.
+
+```
+USER -> ORCHESTRATOR -> DATA AGENT (documentation RAG + SQL + Python analysis)
+                     -> OUTREACH AGENT (curated knowledge base + web research)
+                     -> SYNTHESIS -> answer + evidence + trace
+```
+
+### Setup
+
+```bash
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+.venv/bin/python -m src.data.pipeline     # data/IAIR7EFL.DTA -> data/processed/nfhs5_women.sqlite (~25 s)
+.venv/bin/python -m src.rag.index         # documentation + outreach indexes -> data/index/ (~2 s)
+cp .env.example .env                      # optional: add ANTHROPIC_API_KEY for LLM mode
+```
+
+### Run
+
+```bash
+.venv/bin/streamlit run app.py                                    # web interface
+.venv/bin/python -m src.cli "What does v012 mean?"                 # terminal
+.venv/bin/python -m pytest                                        # tests (54 + 1 known weakness)
+```
+
+### Two modes
+
+| | Offline (no API key) | LLM mode (`ANTHROPIC_API_KEY` set) |
+|---|---|---|
+| Routing | keyword rules (`src/agents/router.py`) | Claude, structured JSON decision |
+| Data Agent | follows the rule-based plan | Claude chooses tools in a tool-use loop |
+| Outreach Agent | curated knowledge base (9 organizations verified 2026-09-27) + rubric | + live web search; unsourced facts are dropped |
+| Final answer | template over labelled statements | Claude-written summary, with a check for numbers not in the evidence |
+| Numbers | always SQL/Python | always SQL/Python |
+
+LLM mode uses `claude-opus-5` with adaptive thinking and server-side refusal
+fallbacks (`fallbacks: "default"`); change `LLM_MODEL` in `.env`. Its wiring is
+tested with a fake client, but it has **not yet been run against the live
+API** (no key was available when it was built).
+
+### Layout
+
+```
+src/
+  config.py            settings from environment variables
+  llm.py               Claude API wrapper (optional)
+  data/                variables.py (cleaning rules), pipeline.py (DTA -> SQLite), loader.py
+  analysis/            database.py (read-only), queries.py (SQL tool), stats.py (Python analysis)
+  rag/                 documents.py (chunking), embeddings.py, vector_store.py, retriever.py, index.py
+  tools/               registry.py, data_tools.py (the tools agents can call)
+  outreach/            profile.py (data -> outreach hand-off), knowledge_base.py, web_research.py
+  agents/              orchestrator.py, router.py, data_agent.py, outreach_agent.py, synthesis.py, trace.py, facts.py
+  app/ui.py            Streamlit interface
+documents/             RAG corpus: methodology.md, data_dictionary.md, outreach/organizations.json
+tests/                 unit tests (synthetic data), integration tests (real data), LLM tests (fake client)
+```
+
+## Descriptive analyses (Analyses 1–6)
 
 ```bash
 python3 scripts/run_all.py
@@ -60,7 +126,8 @@ Weighted % = 100 × Σ w (women in the category) ÷ Σ w (women with a valid ans
 
 The same `v005` weight is used for the state tables. Within a state, rescaling
 all weights by a constant does not change a percentage, so this should match
-state-weight (`sweight`) results. That has not been checked yet.
+state-weight (`sweight`) results. Later verified: within each state
+`sweight` / `v005` is constant up to rounding (see `documents/data_dictionary.md`).
 
 ### 4. Missing and special codes
 
@@ -76,8 +143,8 @@ removes nothing. The only missing data is the Stata-missing `v714` values.
 ### 5. Limitations
 
 - **`v714` is missing for 615,330 women (85%).** Only 108,785 answered, most
-  likely because employment was asked only in the ~15% of households selected
-  for the NFHS-5 state module (not yet verified with `ssmod`). All employment
+  because employment was asked only in the ~15% of households selected for the
+  NFHS-5 state module (later verified: `v714` is present exactly when `ssmod = 1`). All employment
   figures rest on this subsample, and small states have few answers (e.g.
   Chandigarh 129, Lakshadweep 173, Goa 303).
 - **The `v005` weight is assumed valid for the employment subsample.** This holds
